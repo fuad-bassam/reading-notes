@@ -1,11 +1,16 @@
 # `reading-notes`
 ------
 
+
 **You should find here my notes for the topic that I read with .**
 
 * The date .
 * The name of topic .
 * References .
+
+***[Live Note](https://fuad-bassam.github.io/reading-notes/)***
+
+-------
 
 ## ```Code 102 - Intro to Software Development```
 
