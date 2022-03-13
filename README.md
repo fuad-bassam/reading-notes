@@ -13,7 +13,7 @@
 -------
 -----
 
-## [debug & CLI](./day1/DebuggingAndCLI.md)
+
 
 ## ```Code 102 - Intro to Software Development```
 
@@ -22,4 +22,10 @@
 ## ```Code 301 - Intermediate Software Development```
 
 ## ```Code 401 - Advanced Software Development```
+
+
+Day|Date|Title
+---|----|-----
+Day1|3\13|## [debug & CLI](./day1/DebuggingAndCLI.md)
+
 
