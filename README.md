@@ -68,9 +68,35 @@ the command line inside any OS can fined it (Linux , Windows ,...)
  - key 'Q' to exit page or stop . 
 - key 'TAB' to auto complete the statement .
 
+-----
 
 
 
+## ``` Debugging & Exception Handling ```
+
+Debugging: the way that we use to find the problem in our code by running the code step by step.
+
+we can debug our code in some platform like `Visual Studio`.
+
+in visual studio we can debug our code and see the running steps and pause it in these steps.
+
+ 1. ![select Debug button for the menu bar](https://firebasestorage.googleapis.com/v0/b/f22f-3c23f.appspot.com/o/re-erorr1.PNG?alt=media&token=2c48de22-8e3a-4d26-8d4f-2a37c47dc539) 
+ 2. ![press Start Debugging](https://firebasestorage.googleapis.com/v0/b/f22f-3c23f.appspot.com/o/re-erorr2.PNG?alt=media&token=5f766765-e09e-479b-bff7-8b2758a1871f) 
+
+ **or by using `F5`**
+
+ ```
+ TIPS
+
+when debugging is run you can put some code to show the expected valve or what happened like (`Console.WriteLine()`)
+OR if i hilite the variable that will give my the value inside it now.
+```
+---
+we can also handle some problems in CLR (Common Language Runtime) by using statement called  `try/catch` there `throw` ,`try-catch-finally` ,....
+
+like in try/catch work by but the code that you think can make the problem inside try curly brackets and how i should handle this problem inside catch curly brackets.
+
+----------------------
 
 ## ```Code 102 - Intro to Software Development```
 
