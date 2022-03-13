@@ -42,6 +42,36 @@
     ![image](https://firebasestorage.googleapis.com/v0/b/f22f-3c23f.appspot.com/o/DotNet%2Fre-sql-3.PNG?alt=media&token=d36d223c-03ba-497d-8d5f-4ac8d94063b0)
 
 
+##
+ ```
+CLI
+```
+**CLI** : (Command-line interface) text interface this text called command and there is type of command
+the command line inside any OS can fined it (Linux , Windows ,...)
+
+- Navigation command like .
+    1. `pwd` : to get the path for your location .
+    2. `cd +path` : to go inside the directory .
+    3. `cd ..` : to go outside the directory by one step .
+    4. `ls`: to get all the files in the directory that i am inside it .
+
+- File Manipulation .
+   1. `mkdir` : to creat directory . 
+   2. `rmdir` : delete directory .
+   3. `touch` : to creat file .
+   4. `cp` : copy data form file to file .
+   5. `mv` : delete file .
+
+
+**some tips in CLI**
+ 
+ - key 'Q' to exit page or stop . 
+- key 'TAB' to auto complete the statement .
+
+
+
+
+
 ## ```Code 102 - Intro to Software Development```
 
 ## ```Code 201 - Foundations of Software Development```
