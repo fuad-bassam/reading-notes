@@ -13,7 +13,7 @@
 -------
 -----
 
-[debug & CLI](./Debugging%20%26%20CLI.md)
+## [debug & CLI](./day1/DebuggingAndCLI.md)
 
 ## ```Code 102 - Intro to Software Development```
 

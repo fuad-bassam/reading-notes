@@ -83,3 +83,6 @@ we can also handle some problems in CLR (Common Language Runtime) by using state
 like in try/catch work by but the code that you think can make the problem inside try curly brackets and how i should handle this problem inside catch curly brackets.
 
 ----------------------
+
+
+## [Learning Journal For Today](./readin_journal)
