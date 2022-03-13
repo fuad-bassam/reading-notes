@@ -80,8 +80,8 @@ we can debug our code in some platform like `Visual Studio`.
 
 in visual studio we can debug our code and see the running steps and pause it in these steps.
 
- 1. ![select Debug button for the menu bar](https://firebasestorage.googleapis.com/v0/b/f22f-3c23f.appspot.com/o/re-erorr1.PNG?alt=media&token=2c48de22-8e3a-4d26-8d4f-2a37c47dc539) 
- 2. ![press Start Debugging](https://firebasestorage.googleapis.com/v0/b/f22f-3c23f.appspot.com/o/re-erorr2.PNG?alt=media&token=5f766765-e09e-479b-bff7-8b2758a1871f) 
+ 1. [select Debug button for the menu bar](https://firebasestorage.googleapis.com/v0/b/f22f-3c23f.appspot.com/o/re-erorr1.PNG?alt=media&token=2c48de22-8e3a-4d26-8d4f-2a37c47dc539) 
+ 2. [press Start Debugging](https://firebasestorage.googleapis.com/v0/b/f22f-3c23f.appspot.com/o/re-erorr2.PNG?alt=media&token=5f766765-e09e-479b-bff7-8b2758a1871f) 
 
  **or by using `F5`**
 
