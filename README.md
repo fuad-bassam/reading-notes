@@ -26,6 +26,6 @@
 
 Day|Date|Title
 ---|----|-----
-Day1|3\13|## [debug & CLI](./day1/DebuggingAndCLI.md)
+Day1|3\13| **[debug & CLI](./day1/DebuggingAndCLI.md)**
 
 
