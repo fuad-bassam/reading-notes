@@ -5,9 +5,9 @@
  Database
 ```
 
-**Relational Database?**: A database the data inside it organized and sorted into tables 
+**Relational Database?**: A database the data inside it organized and sorted into tables eath table has columns that the creator Specific the number and names for each columns and the relation between the tables    
 
-**SQL** : (Structured Query Language) a programming language used to communicate with relational data and do  processes on data like
+**SQL** : (Structured Query Language) a programming language used to communicate with relational database and do  processes on data like
 
 - SELECT data  `SELECT colome-name FROM Data-base ;` and add some conditions in the last like
     1. WHERE  
@@ -28,7 +28,14 @@
 
     ![image](https://firebasestorage.googleapis.com/v0/b/f22f-3c23f.appspot.com/o/DotNet%2Fre-sql-3.PNG?alt=media&token=d36d223c-03ba-497d-8d5f-4ac8d94063b0)
 
-
+     ![image](./image/t4.PNG)
+     ![image](./image/ta5.PNG)
+     ![image](./image/t13.PNG)
+     ![image](./image/t14.PNG)
+     ![image](./image/t15.PNG)
+     ![image](./image/t16.PNG)
+     ![image](./image/t17.PNG)
+     ![image](./image/t18.PNG)
 ##
  ```
 CLI
