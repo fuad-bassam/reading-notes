@@ -27,5 +27,5 @@
 Day|Date|Title
 ---|----|-----
 Day1|3\13| **[debug & CLI](./day1/DebuggingAndCLI.md)**
-
+Day2|3\14| **[xUnit & UnitTest](./day2/xUnit-UnitTest.md)**
 
