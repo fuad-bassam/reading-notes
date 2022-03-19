@@ -16,14 +16,17 @@ after that now we can use Unit test in our code so first we need to choose the c
 
 and add some test .
 
-```
-Tips : keyword that help you to remember Xunit
+```markdown
+Tips : keyword that help you to remember Xunit (notations[ ])
+
 
 `[Fact]` `[Theory]` 
 
 `[InlineData]` `[MemberData]` `[ClassData]`
+
 ```
 
+![image](../image/TestingType.PNG)
 ---
 
 **Art of README** Honestly i didnt understand a lot but it take about person noffle that give some tips about Node and ReadMe .
