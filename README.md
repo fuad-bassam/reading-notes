@@ -4,11 +4,13 @@
 
 **You should find here my notes for the topic that I read with .**
 
+![image](./image/mainLogo.jpg)
+
 * The date .
 * The name of topic .
 * References .
 
-***[Live Note](https://fuad-bassam.github.io/reading-notes/)***
+***[Live Note URL](https://fuad-bassam.github.io/reading-notes/)***
 
 -------
 -----
