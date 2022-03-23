@@ -4,7 +4,7 @@
 #|Title
 ---|-----
 1|[deferent betweem JavaSecript and C#](##deferent-betweem-JavaSecript-and-C#)
-
+2|[Terms](./Terms.md)
 
 
 ## deferent betweem JavaSecript and C#
