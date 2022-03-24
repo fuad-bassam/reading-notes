@@ -28,6 +28,7 @@
 
 Day|Date|Title
 ---|----|-----
+ 0 | 0| **[General Info](./general-Information/General.md)**
 Day1|3\13| **[debug & CLI](./day1/DebuggingAndCLI.md)**
 Day2|3\14| **[xUnit & UnitTest](./day2/xUnit-UnitTest.md)**
 Day3|3\19| **[FileAndStreamIO](./day3/FileAndStreamIO.md)**
