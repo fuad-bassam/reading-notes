@@ -12,13 +12,11 @@ MICR|Magnetic Ink Character Reader
 DOS|Disk Operating System
 IBM|International Business Management
 Al|Artificial intelligence
-
-**Input System**
-
+**Input System**|
 BCD|Binary Coded Decimal
 ASCII|American Standard Code for Information Interchange
 EBCDIC|Extended Binary Coded Decimal Interchange Code
-**Network**
+**Network**|
 PAN|Personal Area Network
 LAN|local area network
 MAN|metropolitan area network
@@ -46,7 +44,7 @@ VDU|Visual Display Unit
 BIOS|basic input/output system
 NIC|Network Interface Card
 USB|Universal Serial Bus
-**programming language**
+4|**programming language**
 FORTRAN|Formula Translation
 COBOL|Common Business-Oriented Language
 ASP|Active Server Page.
