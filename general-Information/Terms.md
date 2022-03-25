@@ -2,7 +2,7 @@
 ## Terms
 
 
-Title|Stand for
+Title|StandFor
 ------|-----
 DMA|Direct memory access
 UNIV-AC|Universal Automatic Computer
@@ -12,11 +12,11 @@ MICR|Magnetic Ink Character Reader
 DOS|Disk Operating System
 IBM|International Business Management
 Al|Artificial intelligence
-**`Input System`**
+**Input System**
 BCD|Binary Coded Decimal
 ASCII|American Standard Code for Information Interchange
 EBCDIC|Extended Binary Coded Decimal Interchange Code
-**`Network`**
+**Network**
 PAN|Personal Area Network
 LAN|local area network
 MAN|metropolitan area network
@@ -32,7 +32,7 @@ HTTP|HyperText Transfer Protocol
 UTP|Unshielded Twisted Pair
 ping|Packet Internet Groper
 RIP|Routing Information Protocol
-**`computer component`**
+**computer component**
 VGA|Video Graphics Array
 ALU|Arithmetic Logic Unit 
 CD-ROM|Compact Disc Read-Only Memory
@@ -44,10 +44,12 @@ VDU|Visual Display Unit
 BIOS|basic input/output system
 NIC|Network Interface Card
 USB|Universal Serial Bus
-**`programming language`**
+**programming language**
 FORTRAN|Formula Translation
 COBOL|Common Business-Oriented Language
 ASP|Active Server Page.
+
+
 
 # some date
 
