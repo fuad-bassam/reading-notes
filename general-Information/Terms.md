@@ -13,7 +13,9 @@ DOS|Disk Operating System
 IBM|International Business Management
 Al|Artificial intelligence
 
+
 **Input System**
+
 
 BCD|Binary Coded Decimal
 ASCII|American Standard Code for Information Interchange
