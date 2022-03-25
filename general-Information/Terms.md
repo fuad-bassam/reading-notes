@@ -1,8 +1,9 @@
 
 ## Terms
 
+
 Title|Stand for
----|-----
+------|-----
 DMA|Direct memory access
 UNIV-AC|Universal Automatic Computer
 OCR|Optical character recognition
@@ -49,8 +50,10 @@ COBOL|Common Business-Oriented Language
 ASP|Active Server Page.
 
 # some date
+
+
 date|action
----|-----
+-----|-----
 1614|John Napier develop logarithm
    
 
@@ -58,8 +61,9 @@ date|action
 
 ## Extre Info
 
+
 Title|definition
----|-----
+-----|-----
 diagnostic software|programs that are used to find out possible faults and their causes
 embedded system|The computer and software system that control the machine
 
@@ -116,6 +120,9 @@ embedded system|The computer and software system that control the machine
 2| [IC](#ic)
 3|[Primary Memory](#primary-memory)
 4|[Networking Topology](./image/Networking%20Topology.png)
+
+
+
 -----
 ### Computer Generation
 
