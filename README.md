@@ -34,3 +34,4 @@ Day2|3\14| **[xUnit & UnitTest](./day2/xUnit-UnitTest.md)**
 Day3|3\19| **[FileAndStreamIO](./day3/FileAndStreamIO.md)**
 Day4|3\22| **[Classes & Stack vs Heap](./day4/Classes_Stake.md)**
 Day5|3\23| **[Algorithm linked lists](./day5/Algorithm-linked-lists.md)**
+Day6|326| **[Object Oriented Principles](./day6/ObjectOrientedPrinciples.md)**

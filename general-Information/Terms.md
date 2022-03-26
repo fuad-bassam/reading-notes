@@ -1,8 +1,9 @@
 
 ## Terms
 
-Title|Stand for
----|-----
+
+Title|StandFor
+------|-----
 DMA|Direct memory access
 UNIV-AC|Universal Automatic Computer
 OCR|Optical character recognition
@@ -11,11 +12,11 @@ MICR|Magnetic Ink Character Reader
 DOS|Disk Operating System
 IBM|International Business Management
 Al|Artificial intelligence
-**`Input System`**
+**`Input System`**|#
 BCD|Binary Coded Decimal
 ASCII|American Standard Code for Information Interchange
 EBCDIC|Extended Binary Coded Decimal Interchange Code
-**`Network`**
+**`Network`**|#
 PAN|Personal Area Network
 LAN|local area network
 MAN|metropolitan area network
@@ -31,7 +32,11 @@ HTTP|HyperText Transfer Protocol
 UTP|Unshielded Twisted Pair
 ping|Packet Internet Groper
 RIP|Routing Information Protocol
-**`computer component`**
+ARP|Address Resolution Protocol
+ACL|Access control lists 
+IPS|Intrusion prevention systems 
+VPNs|Virtual Private Networks 
+**`computer component`**|#
 VGA|Video Graphics Array
 ALU|Arithmetic Logic Unit 
 CD-ROM|Compact Disc Read-Only Memory
@@ -43,14 +48,17 @@ VDU|Visual Display Unit
 BIOS|basic input/output system
 NIC|Network Interface Card
 USB|Universal Serial Bus
-**`programming language`**
+**`programming language`**|#
 FORTRAN|Formula Translation
 COBOL|Common Business-Oriented Language
 ASP|Active Server Page.
 
+
+
 # some date
+
 date|action
----|-----
+-----|-----
 1614|John Napier develop logarithm
    
 
@@ -58,8 +66,9 @@ date|action
 
 ## Extre Info
 
+
 Title|definition
----|-----
+-----|-----
 diagnostic software|programs that are used to find out possible faults and their causes
 embedded system|The computer and software system that control the machine
 
@@ -116,6 +125,9 @@ embedded system|The computer and software system that control the machine
 2| [IC](#ic)
 3|[Primary Memory](#primary-memory)
 4|[Networking Topology](./image/Networking%20Topology.png)
+
+
+
 -----
 ### Computer Generation
 
