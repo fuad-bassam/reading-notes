@@ -43,3 +43,7 @@ Polymorphism is to the Class can implement his method rather than his inherited 
 
 
 ![img](../image/day6/OOP_Polymorphism.png)
+
+
+
+[Learning Journal](./Learning%20Journal.md)
