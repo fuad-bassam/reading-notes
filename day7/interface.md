@@ -1,10 +1,10 @@
 # Interface
-The interFace is like a method class that i can use in several classes.
+The interface is like a method class that i can use in several classes.
 
-The reason for use interface is to make a class and his componant (variable and method) is not totaly related to each other and in this way we can eazy replace it or use other feachers .
+The reason for using the interface is to make a class and his component (variable and method) is not totally related to each other and in this way we can easily replace it or use other features.
 
-in interface we declear but not implementing the impleminting happend in the class that inherent that interface
-one of the peneft is i can use many interface `in the same class` unlike normal inhert ,the name of and interface all programer start the name with `I` .
+in interface we declare but not implementing the implementing happend in the class that inherent that interface
+one of the benefits is i can use many interface `in the same class` unlike normal inherit, the name of and interface all programer start the name with `I`.
 
 
 
@@ -12,11 +12,11 @@ one of the peneft is i can use many interface `in the same class` unlike normal 
 
 -----
 
-## We use this power of code in abstract class and there is much similarity between both but also it bot the same
+## We use this power of code in abstract class and there is much similarity between both but also it not the same
 
 **Abstract Class**|**Interface**
 -----|-------
-can implement some of member|cant implement any thing
-have access modifiers|it is allwse public
-can inhert from any thing|can inhert from just interface
-can inhert from and for one thing|can inhert many interface in the same class
+can implement some of members |cant implement anything
+have access modifiers|it is always public
+can inherit from anything |can inherit from just interface
+can inherit from and for one thing|can inherit many interfaces in the same class
