@@ -46,4 +46,4 @@ Polymorphism is to the Class can implement his method rather than his inherited 
 
 
 
-[Learning Journal](./Learning%20Journal.md)
+[Learning Journal](./LearningJournal.md)
