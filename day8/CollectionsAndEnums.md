@@ -35,7 +35,7 @@ AnimalWedth.Lion // anser is Lion
 
 ## **Collection**  :paperclip: 
 ---
-is a grop of related objects we but it inside `<>` and we can use collection with many thing
+is a group of related objects we but it inside `<>` and we can use collection with many things
 
 1. **index collection**
     - array
@@ -54,13 +54,13 @@ is a grop of related objects we but it inside `<>` and we can use collection wit
     ```
      Hashtable animal = new Hashtable();
     ```
-    - dictionay
+    - dictionary
     ```
     Dictionary<string, string> animal = new Dictionary<string, string>();
     ```
 
 
-NOTE : the main deferant between `hash map` and  `dictionay` is hash value and key are both from object type but in dictionay we can select the data type.
+NOTE : the main deferant between `hash map` and  `dictionary` is hash value and key are both from object type but in dictionary we can select the data type.
 
 3. **special collection**
 
