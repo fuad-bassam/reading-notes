@@ -2,7 +2,7 @@
 
 ---
 
-is a spatial type of class that we use to store so the number in value and that number we want to NOT change it `const`.
+is a spatial type of class that we use to store so the number in value and that number we want to deal with it in another time.
 
 way to use first create enum class
 
@@ -72,4 +72,9 @@ NOTE : the main deferant between `hash map` and  `dictionary` is hash value and 
     ```
      Queue<string> numbers = new Queue<string>();
     ```
+
+
+
+-----
+## [**Learning Journal**](./LearningJournal.md) 
 
