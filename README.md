@@ -37,3 +37,4 @@ Day5|3\23| **[Algorithm linked lists](./day5/Algorithm-linked-lists.md)**
 Day6|3\26| **[Object Oriented Principles](./day6/ObjectOrientedPrinciples.md)**
 Day7|3\29| **[OOP Principles (interface)](./day7/interface.md)**
 Day8|4\2| **[Collections&Enums](./day8/CollectionsAndEnums.md)**
+Day9|4\5| **[LINQ](./day9/LINQ.md)**
