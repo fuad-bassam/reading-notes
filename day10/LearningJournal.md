@@ -1,6 +1,6 @@
 # Stack & Queue
 
-so today we take Stack and Queue and how ot create a white bored with it .
+so today we take Stack and Queue and how to create a white bored with it.
 
 
 ## Stacks
@@ -8,13 +8,13 @@ so today we take Stack and Queue and how ot create a white bored with it .
 
 ---
 
-the first thing is that the stack mean linked list in specific condition that meak us deal with the top node just `FILO`.
+the first thing is that the stack means a linked list in a specific condition that makes us deal with the top node just `FILO`.
 
 
-like in real life when we get a stack of book sorted above eath other if we want to add book on this books we add it above the other and if we need any book we need to remove it from top book by book `add and remove from top`.  
+like in real life when we get a stack of books sorted above each other if we want to add a book to this books we add it above the other and if we need any book we need to remove it from the top book by book `add and remove from top`.  
 ![img](./Stack_img2.jpg)  
 
-and we take about fore method we use it with Stacks
+and we take about four method we use it with Stacks
 
    - Method `push` to add element in the stack.
    - Method `pop` to return and remove from the stack.
@@ -29,13 +29,13 @@ and we take about fore method we use it with Stacks
 ----
 
 
-then we take about other thing that the queue and his specific condition that meak us add in last and take from first `FIFO`.
+then we take about another thing that the queue and his specific condition that make us add in last and take from first `FIFO`.
 
 
-like in real life when we take about line of wating pepole in any market or games .... ,that the first prpole in line take the first place for shoping playing `out the first from the line`.  
+like in real life when we take about the line of waiting people in any market or games .... , that the first people in line take the first place for shopping playing `out the first from the line`.  
 ![img](./Queue_img2.PNG)     
 
-and we take about fore method we use it with queue
+and we take about four method we use it with queue
 
 - Method `enqueue` to add an element at the first of Queue.
 - Method `dequeue` to remove the last element in the Queue.

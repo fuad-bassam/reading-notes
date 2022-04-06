@@ -5,22 +5,22 @@ Stack And Queue are a containers that we use it to store data in specific way an
 
 ## Stack
 
-Stack it is a series of node like linked list but under condtions for add and remeve that we call this way **FILO** `First In Last Out` .
+Stack is a series of node like a linked list but under conditions for add and remove that we call this way **FILO** `First In Last Out` .
 
-this `FILO` is take about some rulse
-- you cant add any waer you need to add at top just.
-- you can remove from top element just.  
+this `FILO` takes about some rules
+- you cant add any wear you need to add at the top just.
+- you can remove it from the top element just.  
 
 ![img](./Stack_img1.jpg)
 
 ## queue
 
-as stack, queue it is a series of node like linked list but under condtions for add and remeve but that way is deferant we call hhis way **FIFO** `First In First Out`.
+as the stack, queue it is a series of node like the linked list but under conditions for add and remove but that way is different we call this way **FIFO** `First In First Out`.
 
 
-this `FIFO` is take about ather rulse
-- you cant add any waer you need to add at last just.
-- you can remove and take elemnt from first just.  
+this `FIFO` is a take about other rules
+- you cant add any wear you need to add at last just.
+- you can remove and take element from first just.  
 
 ![img](./Queue_img1.PNG)
 
