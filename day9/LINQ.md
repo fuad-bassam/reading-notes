@@ -58,3 +58,5 @@ Used for selecting property out of an objects or other data.
 Exampe:
 var authors = books. Select (b => b.Author);
 ```
+----
+**[Learning Journal](./LearningJournal.md)**
