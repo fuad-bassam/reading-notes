@@ -1,7 +1,7 @@
 # LINQ
 So we should take today about LINQ **Language Integrated Query** and what it is . it is way give in c# give us ability to deal with query syntac.
 
-![img](./LINQ_2.png)
+![img](./LINQ_2.PNG)
 
 and in C# and dotNet we can write it in two way as `methods syntac` and `query syntac` in both way LINQ have many commands in it and the most used commands is 
 
