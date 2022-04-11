@@ -12,4 +12,7 @@ and in C# and dotNet we can write it in two way as `methods syntax and `query sy
 and we use it in many places like :
 
 ![img](./LINQ_1.png)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 911c3660b893add04df370d7aac5770eb8bd0ec3
