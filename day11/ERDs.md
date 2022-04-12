@@ -43,3 +43,7 @@ we use to deal with databases and create statements in the programs or any syste
 
     Example: person an have many cars.
 
+
+-------
+
+**[LearningJournal](./LearningJournal.md)**
