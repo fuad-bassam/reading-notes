@@ -4,6 +4,7 @@
 
 Title|StandFor
 ------|-----
+CRUD|a shortcut for Create Read Update Delete
 DMA|Direct memory access
 UNIV-AC|Universal Automatic Computer
 OCR|Optical character recognition

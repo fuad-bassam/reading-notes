@@ -43,6 +43,7 @@ we use to deal with databases and create statements in the programs or any syste
 
     Example: person an have many cars.
 
+**CRUD**: it is a shortcut for Create Read Update Delete 
 
 -------
 
