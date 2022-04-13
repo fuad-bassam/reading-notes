@@ -40,3 +40,4 @@ Day8|4\2| **[Collections&Enums](./day8/CollectionsAndEnums.md)**
 Day9|4\5| **[LINQ & Delegate](./day9/LINQ.md)**
 Day10|4\6| **[Stack & Queue](./day10/StackAndQueue.md)**
 Day11|4\11| **[ERDs](./day11/ERDs.md)**
+Day12|4\13| **[EF Core & API](./day12/EntityFrameworkCore.md)**
