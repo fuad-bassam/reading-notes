@@ -22,15 +22,21 @@ and when we talking about the Model we going to take about `Data Seeding` or how
 
 API: a library or just some code transfer data with HTTP `json` or `xml` and in this way we can use it all over the internet.
 
-then when we take about HTTP we have a stander build in method to access the resourses we call it `CRUD`(Create-Read-update-delete) or with this method names (Post-Get-updata-Delete).
+then when we take about HTTP we have a stander build in method to access the resources we call it `CRUD`(Create-Read-update-delete) or with this method names (Post-Get-update-Delete).
 
-for evry resorce access there are a **status code** to tel the user what habend the this response like :
+for every resource access there is a **status code** to tell the user what happened in this response like :
 
-- `200` meaning that is OK.
-- `201` meaning that is OK and you create a new resurce.
-- `400` meaning that is NOT ok client do somting wronge.  
-- `404` meaning that resurce Not there or URI is wronge.
-- `401` meaning that you dont have the athintction to retch the resurce.
-- `500` meaning that somthing wronge in the server.
+- `200` means that is OK.
+- `201` means that is OK and you create a new resource.
+- `400` means that is NOT ok the client does something wrong.  
+- `404` means that the resource is Not there or URI is wrong.
+- `401` means that you don't have the authentication to retch the resource.
+- `500` means that something is wrong in the server.
 
 ![img](API.PNG)
+
+
+
+------
+
+**[Learning Journal](./LearningJournal.md)**
