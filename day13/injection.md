@@ -27,3 +27,9 @@ but the main idea for using these Principles is to make our code more flexible a
 
 
 ![img](./Solid-Principles.png)
+
+
+------
+
+
+**[Learning Journal](./LearningJournal.md)**
