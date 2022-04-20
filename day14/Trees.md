@@ -13,20 +13,20 @@ Trees types:  :key:
 4. K-ary Trees
 
 Some keyWords:
-`root` = the first node and the only node don't have a parent.
-`parent` ,`grandparent`
-`children` `grandchildren`
-`sibling`= the node that has the same parent.
-` leef node`= the node that didn't link to other nodes (endpoint).
-`internal node`=the node that has links to other nodes (have children).
-`a is ancestors b`= if we can go from `a` to `b`.
-`b is descendant a`=if we can go from `a` to `b`.
-`depth`= number of edges (links) to reach the node.
-`height` = is the number of edges to reach the farthest leef from the node that i stand on.  
+- `root` = the first node and the only node don't have a parent.
+- `parent` ,`grandparent`
+- `children` `grandchildren`
+- `sibling`= the node that has the same parent.
+- `leef node`= the node that didn't link to other nodes (endpoint).
+- `internal node`=the node that has links to other nodes (have children).
+- `a is ancestors b`= if we can go from `a` to `b`.
+- `b is descendant a`=if we can go from `a` to `b`.
+- `depth`= number of edges (links) to reach the node.
+- `height` = is the number of edges to reach the farthest leef from the node that i stand on.  
 
 ----
 
-We usually use trees to store data like `file system in computer` and for quick search and for how we use it we creat data as node linked together as hierarchy shape.
+We usually use trees to store data like `file system in computer` and for quick search and for how we use it we create data as node linked together as hierarchy shape.
 
 ![img](tree.PNG)
 
