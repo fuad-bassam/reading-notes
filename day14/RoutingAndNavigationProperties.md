@@ -19,4 +19,6 @@ then we have for were request `status code` to tell us what happened in this pat
 
 ![img](./endpoint.png)
 
+-------------
 
+**[Learning Journal](./LearningJournal.md)**
