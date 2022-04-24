@@ -44,3 +44,4 @@ Day12|4\13| **[EF Core & API](./day12/EntityFrameworkCore.md)**
 Day13|4\19| **[dependencyinjection & SOLID](./day13/injection.md)**
 Day14|4\20| **[Trees](./day14/Trees.md)**
 Day14|4\20| **[Navigation Properties & Navigation keys](./day14/RoutingAndNavigationProperties.md)**
+Day16|4\24| **[DTOs](./day16/DTO.md)**
