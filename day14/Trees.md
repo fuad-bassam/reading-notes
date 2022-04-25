@@ -30,3 +30,6 @@ We usually use trees to store data like `file system in computer` and for quick 
 
 ![img](tree.PNG)
 
+-----
+
+**[Learning Journal](./LearningJournalTree.md)**
