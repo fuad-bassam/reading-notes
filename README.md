@@ -42,6 +42,7 @@ Day10|4\6| **[Stack & Queue](./day10/StackAndQueue.md)**
 Day11|4\11| **[ERDs](./day11/ERDs.md)**
 Day12|4\13| **[EF Core & API](./day12/EntityFrameworkCore.md)**
 Day13|4\19| **[dependencyinjection & SOLID](./day13/injection.md)**
-Day14|4\20| **[Trees](./day14/Trees.md)**
 Day14|4\20| **[Navigation Properties & Navigation keys](./day14/RoutingAndNavigationProperties.md)**
+Day15|4\20| **[Trees](./day14/Trees.md)**
 Day16|4\24| **[DTOs](./day16/DTO.md)**
+Day17|4\25| **[Testing API and Swagger](./day17/TestingAndSwagger.md)**
