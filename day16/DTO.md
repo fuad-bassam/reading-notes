@@ -23,3 +23,6 @@ in asp.net to create DTO in our project we have some general steps
 
 ---
 ![img](./DTOclass.png)
+
+-------
+**[Learning Journal](./LearningJournal.md)**
