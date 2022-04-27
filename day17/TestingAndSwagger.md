@@ -39,3 +39,7 @@ and we can have a group of test controllers **[here.](https://docs.microsoft.com
 
 
 ![img](./Unit-Testing-in-ASP.NET-Core.png)  
+
+
+------
+**[Learning Journal](./LearningJournal.md)**
