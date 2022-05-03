@@ -21,3 +21,6 @@ services.AddIdentity<AddIdentity<ApplicationUser, IdentityRole>()
 then go to  `Configure` then add this `app.UseAuthentication();` 
 
  last thing we add the `add migration` then `update database`.
+
+
+ 

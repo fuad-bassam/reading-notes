@@ -27,3 +27,5 @@ base.OnModelCreating(modelBuilder);
 ```
 5. last thing we add the `add migration` then `update database`
 
+-----
+**[Learning Journal](./LearningJournal.md)**
