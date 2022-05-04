@@ -47,3 +47,4 @@ Day15|4\20| **[Trees](./day14/Trees.md)**
 Day16|4\24| **[DTOs](./day16/DTO.md)**
 Day17|4\25| **[Testing API and Swagger](./day17/TestingAndSwagger.md)**
 Day18|4\27| **[Identity](./day18/Identity.md)**
+Day19|5\4| **[Tokens & Authorization](./day18/Identity.md)**
