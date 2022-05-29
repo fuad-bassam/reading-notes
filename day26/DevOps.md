@@ -37,3 +37,6 @@ change it and that use for plan, collaborate and ship and help to fell the gape 
 3. Pipeline
 4. Test plans
 5. Artifacts
+
+----------------------
+**![Learning Journal](./LearningJournal.md)**
