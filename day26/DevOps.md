@@ -39,8 +39,4 @@ change it and that use for plan, collaborate and ship and help to fell the gape 
 5. Artifacts
 
 ----------------------
-<<<<<<< HEAD
 **[Learning Journal](./LearningJournal.md)**
-=======
-**[Learning Journal](./LearningJournal.md)**
->>>>>>> 9ddee9133d7f1c28d7f4d90cab05eb8d1ad6cdb7

@@ -1,6 +1,6 @@
 ## View
 
-so in the MVC the View` is one of the parts that make the page (razor page) from the data that return from the model and the man relation in the view with the Controller 
+so in the MVC the `View` is one of the parts that make the page (razor page) from the data that return from the model and the man relation in the view with the Controller 
 also, the view pages is pages with extinction `cshtml` that mean (C sharp HTML) an HTML page can we wright c# code in it and that makes it more dynamic than the stander HTML pages
 
 so one way to use the View in the MVC controllers by sending the action to the view it do that we need
@@ -29,5 +29,10 @@ there are many ways to add forms in our project
 1. by creating it directly from the View to the method one by one 
 2. by creating holder (bag) that stores the data from the View
 3. and also there is ways using AJAX that will take about it in the future 
+
+----------------------
+**[Learning Journal](./LearningJournal.md)**
+
+
  
 
