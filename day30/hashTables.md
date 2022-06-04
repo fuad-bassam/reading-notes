@@ -12,3 +12,6 @@ some places that we use hash data and hash Tables
 if two value have the same key it is called `Collision` and one of the way to solve it is `chaining` in this way we make the data with the same key that store them in a linked list in order
  
  ![img](./coliision.PNG)
+
+ ----------------------
+**[Learning Journal](./LearningJournal.md)**

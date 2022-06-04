@@ -51,4 +51,4 @@ Day19|5\4| **[Tokens & Authorization](./day19/Tokens.md)**
 Day26|5\29| **[Intro to MVC](./day26/DevOps.md)**
 Day27|5\30| **[view](./day27/view.md)**
 Day28|6\1| **[Cookies](./day28/Cookies.md)**
-Day28|6\1| **[hashTables](./day28/hashTables.md)**
+Day30|6\1| **[hashTables](./day30/hashTables.md)**
