@@ -25,3 +25,7 @@ an `id` that use to reach files about your data in the server.
 ```
 
  ![img](cookies1.PNG)
+
+ 
+-----
+**[Learning Journal](./LearningJournal.md)**

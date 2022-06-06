@@ -30,3 +30,6 @@ and to implement claims-based authorization we have two steps :
        // Role code 
         }
 ```
+
+-----
+**[Learning Journal](./LearningJournal.md)**
