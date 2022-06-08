@@ -53,3 +53,4 @@ Day27|5\30| **[view](./day27/view.md)**
 Day28|6\1| **[Cookies](./day28/Cookies.md)**
 Day29|6\7| **[Azure Blob Storage](./day29/AzureBlobStorage.md)**
 Day30|6\1| **[hashTables](./day30/hashTables.md)**
+Day31|6\1| **[RazorPage](./day31/RazorPage.md)**
