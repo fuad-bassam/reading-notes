@@ -14,3 +14,8 @@ and we can divide it to three part
 
 
 ![img](./blob.png)
+
+
+----------------------
+**[Learning Journal](./LearningJournal.md)**
+
