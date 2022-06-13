@@ -28,3 +28,6 @@ we can pass the data in the view in three ways
 3- stromgly typed view `@Model.Data`
 
 ![img](r2.png)
+
+ ----------------------
+**[Learning Journal](./LearningJournal.md)**
