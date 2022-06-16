@@ -29,4 +29,6 @@ To use View Components we have some steps
 ![](./useViewComponenet1.PNG)   **OR**
 ![](./useViewComponenet2.PNG)
 
+ ----------------------
+**[Learning Journal](./LearningJournal.md)**
 
