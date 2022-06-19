@@ -7,4 +7,4 @@ In our project we need to follow some steps to mail sucseccfuly
 2. After that we need to add the mail code 
 
 
-[img](./Lj33.PNG)
+![img](./Lj33.PNG)
