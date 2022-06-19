@@ -19,4 +19,4 @@ so also we can divide the graph depending on
 - Airline Traffic
 - etc
  
-[img](./Graphs.png)
+![img](./Graphs.png)
