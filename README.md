@@ -57,3 +57,4 @@ Day31|6\1| **[RazorPage](./day31/RazorPage.md)**
 Day32|6\14| **[View Components](./day32/ViewComponents.md)**
 Day33|6\16| **[SendGrid](./day33/Sendgrid.md)**
 Day34|6\16| **[Payment Processing](./day34/PaymentProcessing.md)**
+Day35|6\19| **[Graphs](./day35//Graphs.md)**
