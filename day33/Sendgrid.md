@@ -16,3 +16,6 @@ To send email using sendgrid we have to:
 
 
 And we can find more information about it **[here](https://sendgrid.com/resource/setting-up-your-email-infrastructure-with-twilio-sendgrid/)**
+
+ ----------------------
+**[Learning Journal](./LearningJournal.md)**

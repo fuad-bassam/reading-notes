@@ -15,3 +15,7 @@ And now for use the payment system in our we need to
 3. user application: to make the transaction process and to check the user and his account in the PCI and usually we had accounts for users and deal with it from the number call it `IBAN`  
 
 ![img](./payment%20process.png)
+
+
+ ----------------------
+**[Learning Journal](./LearningJournal.md)**
