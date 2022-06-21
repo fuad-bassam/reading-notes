@@ -20,3 +20,6 @@ so also we can divide the graph depending on
 - etc
  
 ![img](./Graphs.png)
+
+---------------
+**[Learning Journal](./LearningJournal.md)**
