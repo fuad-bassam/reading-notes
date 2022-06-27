@@ -1,0 +1,122 @@
+1- Create a new database (throuhg creating a new database on the server level) 
+2- Create a new query
+Data types, refer to
+https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver16
+
+3- Create the first table:
+CREATE TABLE EMPLOYEES (
+EMPLOYEE_ID int NOT NULL PRIMARY KEY,
+FIRST_NAME varchar(255) NOT NULL, 
+LAST_NAME varchar(255) NOT NULL,
+BIRTH_DATE date,
+GENDER CHAR(1),
+SALARY smallint,
+BRANCH varchar(255)
+)
+
+View designer and check
+
+4- new query to insert
+INSERT INTO [dbo].[EMPLOYEES] ([EMPLOYEE_ID], [FIRST_NAME], [LAST_NAME], [BIRTH_DATE], [GENDER], [SALARY], [BRANCH]) VALUES (1, N'Omar', N'Zain', N'1992-03-01', N'M', 1200, N'amman')
+INSERT INTO [dbo].[EMPLOYEES] ([EMPLOYEE_ID], [FIRST_NAME], [LAST_NAME], [BIRTH_DATE], [GENDER], [SALARY], [BRANCH]) VALUES (2, N'Fadi', N'Habboubati', N'1996-05-05', N'M', 1000, N'amman')
+INSERT INTO [dbo].[EMPLOYEES] ([EMPLOYEE_ID], [FIRST_NAME], [LAST_NAME], [BIRTH_DATE], [GENDER], [SALARY], [BRANCH]) VALUES (3, N'Rawan', N'Khasawneh', N'1994-01-10', N'F', 1400, N'amman')
+INSERT INTO [dbo].[EMPLOYEES] ([EMPLOYEE_ID], [FIRST_NAME], [LAST_NAME], [BIRTH_DATE], [GENDER], [SALARY], [BRANCH]) VALUES (4, N'Ayyoub', N'Qeyyam', N'1993-07-25', N'M', 1600, N'irbid')
+INSERT INTO [dbo].[EMPLOYEES] ([EMPLOYEE_ID], [FIRST_NAME], [LAST_NAME], [BIRTH_DATE], [GENDER], [SALARY], [BRANCH]) VALUES (5, N'Batool', N'AlAli', N'1995-08-08', N'F', 800, N'irbid')
+INSERT INTO [dbo].[EMPLOYEES] ([EMPLOYEE_ID], [FIRST_NAME], [LAST_NAME], [BIRTH_DATE], [GENDER], [SALARY], [BRANCH]) VALUES (6, N'Ahmad', N'Freijat', N'1993-01-04', N'M', 850, N'amman')
+INSERT INTO [dbo].[EMPLOYEES] ([EMPLOYEE_ID], [FIRST_NAME], [LAST_NAME], [BIRTH_DATE], [GENDER], [SALARY], [BRANCH]) VALUES (7, N'Khaled', N'Alzoubi', N'2000-12-04', N'M', 900, N'irbid')
+INSERT INTO [dbo].[EMPLOYEES] ([EMPLOYEE_ID], [FIRST_NAME], [LAST_NAME], [BIRTH_DATE], [GENDER], [SALARY], [BRANCH]) VALUES (8, N'Boshra', N'Jaber', N'1997-02-06', N'F', 1500, N'amman')
+INSERT INTO [dbo].[EMPLOYEES] ([EMPLOYEE_ID], [FIRST_NAME], [LAST_NAME], [BIRTH_DATE], [GENDER], [SALARY], [BRANCH]) VALUES (9, N'Hussein', N'AlMohammad', N'1996-01-04', N'M', 1400, N'irbid')
+INSERT INTO [dbo].[EMPLOYEES] ([EMPLOYEE_ID], [FIRST_NAME], [LAST_NAME], [BIRTH_DATE], [GENDER], [SALARY], [BRANCH]) VALUES (11, N'Osaid', N'AlHumaidy', N'1998-01-04', N'M', 750, N'amman')
+
+
+Run some selects:
+select * from employees;
+select first_name, last_name from employees;
+select * from employees where salary > 1000;
+select * from employees where salary > 1000 AND BRANCH='amman';
+select * from employees where salary > 1000 or BRANCH='amman';
+select * from employees where FIRST_NAME <> 'Fadi';
+select * from employees where FIRST_NAME LIKE 'a%';
+select * from employees where SALARY BETWEEN 1000 and 1600 ;
+SELECT COUNT(FIRST_NAME) FROM employees WHERE SALARY > 1000;
+SELECT COUNT(FIRST_NAME) AS MoreThanThousand FROM employees WHERE SALARY > 1000;
+
+UPDATE EMPLOYEES SET BRANCH = 'irbid' where EMPLOYEE_ID = 1;
+UPDATE EMPLOYEES SET BRANCH = 'amman', SALARY = 1600 where EMPLOYEE_ID = 7;
+
+
+DELETE is basically the same
+
+SELECT TOP 3 * FROM EMPLOYEES;
+
+select * from employees ORDER BY FIRST_NAME;
+
+select * from employees ORDER BY FIRST_NAME DESC;
+
+select BRANCH, SUM(SALARY) from EMPLOYEES GROUP BY BRANCH;
+
+SELECT DISTINCT BRANCH FROM EMPLOYEES;
+
+
+Now , what if I realized I want to have a table for the branches because I want to have additional 
+data about branch, and because this will be used by other tables and we need to normalize the data
+without loosing data we have and converting what we have into a relation
+so we first need a branch table with the branch names we have in the table, how can we get these names
+
+Create the branch table
+
+
+create table branches (
+BRANCH_ID int IDENTITY(1,1) PRIMARY KEY,
+BRANCH_NAME varchar(255) NOT NULL )
+
+INSERT INTO BRANCHES (BRANCH_NAME) 
+SELECT DISTINCT BRANCH FROM EMPLOYEES;
+
+Then, add the new column to the database, the one which will be holding the branch id 
+ALTER TABLE EMPLOYEES ADD BRANCH_ID int,
+FOREIGN KEY ([BRANCH_ID]) REFERENCES [BRANCHES]([BRANCH_ID]);
+
+
+
+UPDATE EMPLOYEES SET EMPLOYEEs.BRANCH_ID = Branches.Branch_id 
+from BRANCHes
+where Branches.BRANCH_NAME = EMPLOYEES.BRANCH;
+
+ALTER TABLE EMPLOYEES DROP column BRANCH;
+
+self join 
+ALTER TABLE EMPLOYEES ADD SUPERVISOR_ID int,
+FOREIGN KEY ([SUPERVISOR_ID]) REFERENCES [EMPLOYEES]([EMPLOYEE_ID]);
+
+update EMPLOYEES set SUPERVISOR_ID = 1 where EMPLOYEE_ID > 1;
+
+
+select first_name, branch_name from employees, branches 
+where EMPLOYEES.BRANCH_ID = branches.BRANCH_ID;
+
+select first_name, branch_name
+from employees
+inner join branches
+on employees.BRANCH_ID = branches.BRANCH_ID;
+
+
+INSERT INTO [dbo].[EMPLOYEES] ([EMPLOYEE_ID], [FIRST_NAME], [LAST_NAME], [BIRTH_DATE], [GENDER], [SALARY]) VALUES (12, N'without', N'branch', N'1998-01-04', N'M', 750)
+
+select first_name, branch_name
+from employees
+LEFT JOIN branches
+on employees.BRANCH_ID = branches.BRANCH_ID;
+
+
+Create a project, 
+add the entity framwwork, sql, tools dependency
+run the command :
+Scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;Database=DBClassDemo;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+code first ? DBFirst? 
+
+
+
+
