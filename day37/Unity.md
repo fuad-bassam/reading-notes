@@ -25,3 +25,12 @@ the interface of unity engine is composed of:
 3. the inspector: that have the property of the selected object
 4. the project: have the project folders locations and thing that we import to the project
 5. the console: that works the same as regular console in the project folder bath
+
+## Gameplay in 2D
+Unity can be used to create 2D games, the familiar functions of the editor are still available but with helpful additions to simplify 2D development
+
+
+## 2D graphics
+Graphic objects in 2D are known as `Sprites` are essentially just standard textures but there are special techniques for combining and managing sprite textures for efficiency and convenience during development 
+## 2D physics
+Unity has a separate physics engine for handling 2D physics so as to make use of optimizations only available with 2D. 
