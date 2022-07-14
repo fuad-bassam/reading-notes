@@ -59,3 +59,5 @@ Day33|6\16| **[SendGrid](./day33/Sendgrid.md)**
 Day34|6\16| **[Payment Processing](./day34/PaymentProcessing.md)**
 Day35|6\19| **[Graphs](./day35//Graphs.md)**
 Day37|7\10| **[Unity](./day37/Unity.md)**
+Day38|7\14| **[Ethics In Tech](./day38/EthicsInTech.md)**
+Day39|7\14| **[OSS Contributions](./day39/OSSContributions.md)**
