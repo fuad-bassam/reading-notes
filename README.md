@@ -1,6 +1,6 @@
 # `reading-notes`
-------
 
+------
 
 **You should find here my notes for the topic that I read with .**
 
@@ -12,10 +12,8 @@
 
 ***[Live Note URL](https://fuad-bassam.github.io/reading-notes/)***
 
--------
------
-
-
+------
+------
 
 ## ```Code 102 - Intro to Software Development```
 
@@ -25,10 +23,10 @@
 
 ## ```Code 401 - Advanced Software Development```
 
-
 Day|Date|Title
 ---|----|-----
- 0 | 0| **[General Info](./general-Information/General.md)**
+0 | 0| **[General Info](./general-Information/General.md)**
+0 | 0| **[Manara Node](./Manara/SoftSkils/SoftSkills.md)**
 Day1|3\13| **[debug & CLI](./day1/DebuggingAndCLI.md)**
 Day2|3\14| **[xUnit & UnitTest](./day2/xUnit-UnitTest.md)**
 Day3|3\19| **[FileAndStreamIO](./day3/FileAndStreamIO.md)**

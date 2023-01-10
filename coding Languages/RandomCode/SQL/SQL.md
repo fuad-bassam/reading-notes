@@ -1,0 +1,12 @@
+# SQL
+
+**_pagination_**
+---
+
+```SQL
+ SELECT * FROM (SELECT ROW_NUMBER() OVER(ORDER BY Docn_link DESC) AS NUMBER, * FROM DOC00175 WHERE DOCN_DEL = 0
+AND (FOLD_VAL = '_Default' or  FOLD_VAL = '' OR FOLD_VAL = '10')
+AND DOCN_LVL <= 99) AS TBL WHERE NUMBER BETWEEN ((1 - 1) * 20 + 1) AND (1 * 20) ORDER BY Docn_link DESC
+```
+
+---
