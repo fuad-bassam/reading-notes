@@ -7,4 +7,4 @@
 Date|Title
 ----|-----
  0| **[General Info](./)**
-1/10| **[What Are Your Strengths and Weaknesses?](./Topic1/Strengths_and_Weaknesses_Questions)** 
+1/10| **[What Are Your Strengths and Weaknesses?](./Topic1/Strengths_and_Weaknesses_Questions)**
