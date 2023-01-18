@@ -30,4 +30,13 @@ s.Start/s.Stop/s.ElapsedMillseconds
     var queue = new PriorityQueue<int,int>();
 ```
 
+```C#
+    // for more custom comparer
+    public class NameComparer: IComparer<KeyValuePair<string, int>>
+{
+  public int Compare(KeyValuePair<string, int> x, KeyValuePair<string,int> y) => 
+  (x.Value == y.Value) ? (x.Key.CompareTo(y.Key)) : (y.Value-x.Value);
+} 
+```
+
 ---
