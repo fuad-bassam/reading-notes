@@ -1,7 +1,6 @@
 
 ## Terms
 
-
 Title|StandFor
 ------|-----
 CRUD|a shortcut for Create Read Update Delete

@@ -1,6 +1,6 @@
 # .Net
 
-**_SpeedTest_**
+## **_SpeedTest_**
 
 ---
 
@@ -12,7 +12,7 @@ s.Start/s.Stop/s.ElapsedMillseconds
 
 ---
 
-**_PriorityQueue_**
+## **_PriorityQueue_**
 
 ---
 
@@ -37,6 +37,36 @@ s.Start/s.Stop/s.ElapsedMillseconds
   public int Compare(KeyValuePair<string, int> x, KeyValuePair<string,int> y) => 
   (x.Value == y.Value) ? (x.Key.CompareTo(y.Key)) : (y.Value-x.Value);
 } 
+```
+
+---
+
+## **_nested arrays_**
+
+---
+
+```C#
+// there is two types of nested arrays 
+//1 int[,] in This type all rows in the array have the same number of columns.
+
+//declare array 
+int[,] array = new int[3, 4];
+//get length x and y
+ array.GetLength(0);//x
+ array.GetLength(1);//y
+
+//2 int[][] in This type each row in the array can have a different number of columns.
+
+//declare array 
+
+int[][] array = new int[3][];
+array[0] = new int[4];
+array[1] = new int[5];
+array[2] = new int[6];
+
+//get length x and y
+ array.Length;//x
+ array[0].Length;//y
 ```
 
 ---
