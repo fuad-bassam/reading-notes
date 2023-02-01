@@ -90,14 +90,6 @@ embedded system|The computer and software system that control the machine
 - Polymorphism
 
 
-
-
-
-
-
-
-
-
 1. The capacity of `3.5 inch floppy` disk is 1.44 MB and `5.25 inch floppy` disk is 1.2 MB.
 2. Which device is required for the Internet connection? `Modem`
 
@@ -155,3 +147,12 @@ embedded system|The computer and software system that control the machine
 ![image](./image/Networking%20Topology.png)
 
 ---------------
+
+## terms in programing languages and Frameworks
+
+**Web Forms** :
+
+### postBack:
+A postback occurs when a user submits a form and the page is reloaded.  
+
+
