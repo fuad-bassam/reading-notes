@@ -1,5 +1,15 @@
 # Web Forms
 
+## standers and general info
+
+1. when you have a any type of view to you can search on it in two places
+    1. in the view Page (aspx file) by his name or type of form the view section
+    2. form the code (aspx.cs file) by search for his event by putting the view item name in method as stander [stander 1](./web%20forms.md#stander_1)  
+
+### stander_1
+
+events names for the view be the viewName_eventName like: (btnSave_Click)
+
 ## store data in Web Forms
 
 1. view state: The view state is a hidden field in the HTML page that stores the state of the page and its controls in a serialized format.**In simple word** to make the data in the page "sticky" when we reload the data  
@@ -23,3 +33,4 @@ The main difference between the two is that the asp:TextBox control provides add
 2. asp:TextBox can automatically maintain its state across [postBacks](../../../general-Information/Terms.md#postback), meaning that the value entered by the user will be preserved even if the page is reloaded.
 
 3. asp:TextBox can be easily styled using CSS, or can be customized using the built-in ASP.NET validation controls.
+
