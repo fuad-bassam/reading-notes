@@ -8,7 +8,7 @@
 
 ### stander_1
 
-events names for the view be the viewName_eventName like: (btnSave_Click)
+events names for the view be the viewName_eventName like:(btnSave_Click)
 
 ## store data in Web Forms
 
@@ -33,4 +33,3 @@ The main difference between the two is that the asp:TextBox control provides add
 2. asp:TextBox can automatically maintain its state across [postBacks](../../../general-Information/Terms.md#postback), meaning that the value entered by the user will be preserved even if the page is reloaded.
 
 3. asp:TextBox can be easily styled using CSS, or can be customized using the built-in ASP.NET validation controls.
-
