@@ -99,6 +99,10 @@ The type of join in sql Server
 
 * Self Join: Joins a table with itself,and its not a new type of join it can be inner or outer or cross join,for example (manager and employees both of them is form user table)
 
+![Alt text](Join3Table.png)
+
+![join](join.png)
+
 ## way to replace null
 
 In SQL Server, there are multiple ways to replace NULL values with a desired alternative.
@@ -134,3 +138,47 @@ In SQL Server, there are multiple ways to replace NULL values with a desired alt
        END AS column_alias
    FROM your_table;
    ```
+
+   ## pagination
+
+      ```sql
+      --static
+   SELECT 
+       CASE
+           WHEN column_name IS NULL THEN 'replacement_value'
+           ELSE column_name
+       END AS column_alias
+   FROM your_table;
+   ```
+
+      ```sql
+      --Dynamic 
+   DECLARE @PageNumber AS INT
+   DECLARE @RowsOfPage AS INT
+   SET @PageNumber=2
+   SET @RowsOfPage=4
+   SELECT FruitName,Price FROM SampleFruits
+   ORDER BY Price 
+   OFFSET (@PageNumber-1)*@RowsOfPage ROWS
+   FETCH NEXT @RowsOfPage ROWS ONLY
+   ```
+
+   ```sql
+      --Dynamic sorting
+   DECLARE @PageNumber AS INT
+   DECLARE @RowsOfPage AS INT
+   DECLARE @SortingCol AS VARCHAR(100) ='FruitName'
+   DECLARE @SortType AS VARCHAR(100) = 'DESC'
+   SET @PageNumber=1
+   SET @RowsOfPage=4
+   SELECT FruitName,Price FROM SampleFruits
+   ORDER BY 
+   CASE WHEN @SortingCol = 'Price' AND @SortType ='ASC' THEN Price END ,
+   CASE WHEN @SortingCol = 'Price' AND @SortType ='DESC' THEN Price END DESC,
+   CASE WHEN @SortingCol = 'FruitName' AND @SortType ='ASC' THEN FruitName END ,
+   CASE WHEN @SortingCol = 'FruitName' AND @SortType ='DESC' THEN FruitName END DESC
+   OFFSET (@PageNumber-1)*@RowsOfPage ROWS
+   FETCH NEXT @RowsOfPage ROWS ONLY
+   ```
+
+![Alt text](pagination.png)
