@@ -6,13 +6,13 @@
  
 
 
-classes are the templet (blueprint) for creating element eath element have the same properties with different value called `Object`.
+classes are the template (blueprint) for creating element each element have the same properties with different value called `Object`.
 
 and the classes can take attributes from other classes and that is what we called `inheritance`.
 
 this `Object` is an instance of Class have its own data but in his Class format, we can create object form class in `Reference way`.
  
-this `Reference Type` is the way that we told the compiler that this Object has the templet for the specific class.
+this `Reference Type` is the way that we told the compiler that this Object has the template for the specific class.
 
 `ClassName object = new ClassName();`
 

@@ -59,3 +59,7 @@ The main difference between the two is that the asp:TextBox control provides add
 2. asp:TextBox can automatically maintain its state across postbacks, meaning that the value entered by the user will be preserved even if the page is reloaded.
 
 3. asp:TextBox can be easily styled using CSS or customized using the built-in ASP.NET validation controls.
+
+## images
+
+![Alt text](Capture.PNG)

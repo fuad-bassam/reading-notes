@@ -1,5 +1,5 @@
 # Tokens 💰
-Tokens like a key or coin it with server make it and can trust it give it for the user after they singe the first time and the client store them, in this way make the authorization more flexible and the user dont need to send his user data every time they want to do anything.
+Tokens like a key or coin it with server make it and can trust it give it for the user after they singe the first time and the client store them, in this way make the authorization more flexible and the user don't need to send his user data every time they want to do anything.
 
 
 
