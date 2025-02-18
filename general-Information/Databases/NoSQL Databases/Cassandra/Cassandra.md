@@ -41,15 +41,24 @@ or for simple one we can use this
     ```cqlsh
     DESCRIBE KEYSPACE;
     ```
-2. find all tables inside a keyspace
+2. find schema tables inside a keyspace
 
     ```cqlsh
     DESCRIBE TABLES KEYSPACE_Name;
     ```
+    or 
+    
+    ```cqlsh
+    DESCRIBE TABLES KEYSPACE_Name.TableName;
+    ```
 
+3. Add a New Column (domainId)
+    ```cqlsh
+    ALTER TABLE keyspaceName.TableName ADD columnName columnType;
+    ```
 ## Reference  
 
-[**cassandra Started  Official document**](https://cassandra.apache.org/_/quickstart.html)     
+[**Cassandra Started  Official document**](https://cassandra.apache.org/_/quickstart.html)     
 
 
 [**Setup Apache Cassandra on Windows using Docker (Server + Client) (video)**](https://www.youtube.com/watch?v=jKp21r59WYg)     
