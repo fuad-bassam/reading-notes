@@ -111,6 +111,12 @@ export const metadata = {
 - **loading.tsx** : for loading state
 - **error.tsx**: for error handling
 
+#### rendering types
+
+1. (IRS) server side render at run time
+1. (SSG)(CSR) pre-rendered as static content
+1. (SSR) ƒ (Dynamic) server-rendered on demand
+
 ### hooks
 
 1. usePathname
@@ -125,3 +131,4 @@ export const metadata = {
 ```
 
 ![alt text](image.png)
+[NPM Library Used In the Demo](NPMLibraryUsedIntheDemo.md)
