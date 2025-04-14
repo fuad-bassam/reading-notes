@@ -1,4 +1,4 @@
-npm install json-server jsonschema --save-dev
+npm install json-server@0.17.4 jsonschema --save-dev
 npm install joi
 npm install @mui/material @emotion/react @emotion/styled
 npm install echarts
