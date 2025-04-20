@@ -115,18 +115,10 @@ export const metadata = {
 
 [next js learn page](https://nextjs.org/learn/pages-router/data-fetching-two-forms)
 
-1. (IRS) server side render at run time
-1. (SSG)(CSR) pre-rendered as static content
-1. (SSR) ƒ (Dynamic) server-rendered on demand
-
-```
-Page                              Size     First Load JS
-┌ ○ /                            2.5 kB          80 kB (SSG) {Static Generation with and without Data}
-├ ● /blog/[slug]                 1.8 kB          78 kB (SSG with getStaticProps) {Static but have data fetch so ( get the data Dynamic at  pre-rendered the build time )} using getStaticProps
-├ λ /dashboard                   5.1 kB          82 kB (SSR)
-├ ● /products/[id] (ISR: 60s)    2.1 kB          79 kB (ISR)
-└ ○ /about                       1.2 kB          77 kB (Static)
-```
+1.  ○ (Static) prerendered as static content
+1.  ● (SSG) prerendered as static HTML (uses getStaticProps)
+1.  ƒ (Dynamic) server-rendered on demand
+1.  server side render at run time
 
 #### Server Components & Rendering Strategies
 
@@ -138,7 +130,7 @@ Use Case: Ideal for highly dynamic content requiring real-time data (e.g., dashb
 
 Trade-off: Higher server load and latency but ensures up-to-date content.
 
-SSG (Static Site Generation):
+SSG (Static Site Generation): (`generateStaticParams`)
 
 Server Components: Rendered at build time, generating static HTML. Data is pre-fetched once (e.g., blog posts).
 
@@ -153,6 +145,47 @@ Server Components: Rendered at build time and revalidated on-demand or at interv
 Use Case: Semi-dynamic content needing periodic updates without full rebuilds.
 
 Trade-off: Balances freshness and performance via revalidation (e.g., revalidate: 60 seconds).
+
+##### Notes:
+
+1. **generateStaticParams**: Data fetching functions like `getServerSideProps` and `getStaticProps` have been replaced with a new API inside `app`. `getStaticPaths` has been replaced with `generateStaticParams`.
+
+1. **Static VS SSG**: [link](https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation)
+
+```
+It’s all static HTML at the end of the day in both cases. Not much practical difference, both are generated at build time.
+
+A static page that has no data fetching components is just rendered straight to HTML by Next. Next caches this HTML so that there is less generation happening when a static page loads. When you rebuild, this HTML gets regenerated.
+
+With SSG you can fetch some data and bake it into your statically generated HTML. When you run build Next goes and fetches data via getStaticProps, hydrates your HTML with the data, then caches it all just like before. Rerun build to refetch the data.
+
+```
+
+| Feature       | ○ (Static)                  | ● (SSG)                               |
+| ------------- | --------------------------- | ------------------------------------- |
+| Data Fetching | ❌ None                     | ✅ getStaticProps                     |
+| Use Case      | Hardcoded pages (e.g., FAQ) | Dynamic-but-pre-rendered (e.g., blog) |
+| Performance   | ⚡ Fastest                  | ⚡ Fast (but slower than ○)           |
+
+#### **Summary**
+
+```
+Page                              Size     First Load JS
+┌ ○ /                            2.5 kB          80 kB (SSG) {Static Generation with and without Data}
+├ ● /item/[id]                 1.8 kB          78 kB (SSG with getStaticProps)
+├ ● /blog/[slug]                 1.8 kB          78 kB (SSG with getStaticProps) {Static but have data fetch so ( get the data Dynamic at pre-rendered the build time )} using getStaticProps
+├ λ /dashboard                   5.1 kB          82 kB (SSR)
+├ ● /products/[id] (ISR: 60s)    2.1 kB          79 kB (ISR)
+└ ○ /about                       1.2 kB          77 kB (Static)
+```
+
+| Symbol  | Rendering Strategy                     | Example Page   | How to Identify in Code                  | When to Use                                  |
+| ------- | -------------------------------------- | -------------- | ---------------------------------------- | -------------------------------------------- |
+| ○       | Static (No Data Fetching)              | /, /about      | No getStaticProps/getServerSideProps     | Pure static pages (e.g., marketing).         |
+| ●       | SSG (Pre-rendered with getStaticProps) | /blog/[slug]   | Uses getStaticProps                      | Content known at build time (e.g., blogs).   |
+| ● (ISR) | ISR (Revalidated Static)               | /products/[id] | getStaticProps + revalidate: 60          | Semi-dynamic content (e.g., e-commerce).     |
+| λ       | SSR (Server-Side Rendered)             | /dashboard     | Uses getServerSideProps                  | Real-time data (e.g., auth-protected pages). |
+| ƒ       | Dynamic SSR (On-Demand)                | /profile/[id]  | Uses getServerSideProps + dynamic routes | User-specific content (e.g., profiles).      |
 
 #### Client Components
 
@@ -171,9 +204,6 @@ Data Fetching: Can fetch client-side data (e.g., using useEffect or libraries li
 - async/await for server component, use hook for client component
 - **layout.tsx** only have access to params (there is no searchParams)
 
-```
-
-```
-
 ![alt text](image.png)
+
 [NPM Library Used In the Demo](NPMLibraryUsedIntheDemo.md)
