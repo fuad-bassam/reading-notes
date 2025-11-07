@@ -92,4 +92,4 @@ like in try/catch work by but the code that you think can make the problem insid
 ----------------------
 
 
-## [Learning Journal For Today](./readin_journal)
+## [Learning Journal For Today](./readin_journal.md)

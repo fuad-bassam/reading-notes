@@ -1,16 +1,10 @@
-# `reading-notes`
+# `LTUC Reading Notes`
 
 ------
 
-**You should find here my notes for the topic that I read with .**
+**Notes from my LTUC bootcamp journey organized by day.**
 
 ![image](./image/mainLogo.jpg)
-
-* The date .
-* The name of topic .
-* References .
-
-***[Live Note URL](https://fuad-bassam.github.io/reading-notes/)***
 
 ------
 ------
@@ -36,7 +30,7 @@ Day16|4\24| **[DTOs](./day16/DTO.md)**
 Day17|4\25| **[Testing API and Swagger](./day17/TestingAndSwagger.md)**
 Day18|4\27| **[Identity](./day18/Identity.md)**
 Day19|5\4| **[Tokens & Authorization](./day19/Tokens.md)**
-Day26|5\29| **[Intro to MVC](./day26/DevOps.md)**
+Day26|5\29| **[DevOps](./day26/DevOps.md)**
 Day27|5\30| **[view](./day27/view.md)**
 Day28|6\1| **[Cookies](./day28/Cookies.md)**
 Day29|6\7| **[Azure Blob Storage](./day29/AzureBlobStorage.md)**
@@ -45,7 +39,7 @@ Day31|6\1| **[RazorPage](./day31/RazorPage.md)**
 Day32|6\14| **[View Components](./day32/ViewComponents.md)**
 Day33|6\16| **[SendGrid](./day33/Sendgrid.md)**
 Day34|6\16| **[Payment Processing](./day34/PaymentProcessing.md)**
-Day35|6\19| **[Graphs](./day35//Graphs.md)**
+Day35|6\19| **[Graphs](./day35/Graphs.md)**
 Day37|7\10| **[Unity](./day37/Unity.md)**
 Day38|7\14| **[Ethics In Tech](./day38/EthicsInTech.md)**
 Day39|7\14| **[OSS Contributions](./day39/OSSContributions.md)**
