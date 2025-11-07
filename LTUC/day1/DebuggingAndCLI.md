@@ -1,9 +1,14 @@
+# Debugging & CLI
 
+## Table of Contents
+- [Database](#database)
+- [CLI](#cli)
+- [Debugging & Exception Handling](#debugging--exception-handling)
+- [Learning Journal](#learning-journal-for-today)
 
-##
- ```
- Database
-```
+---
+
+## Database
 
 **Relational Database?**: A database the data inside it organized and sorted into tables eath table has columns that the creator Specific the number and names for each columns and the relation between the tables    
 
@@ -65,7 +70,7 @@ the command line inside any OS can fined it (Linux , Windows ,...)
 -----
 
 
-## ``` Debugging & Exception Handling ```
+## Debugging & Exception Handling
 
 Debugging: the way that we use to find the problem in our code by running the code step by step.
 
@@ -92,4 +97,10 @@ like in try/catch work by but the code that you think can make the problem insid
 ----------------------
 
 
-## [Learning Journal For Today](./readin_journal.md)
+## Learning Journal For Today
+
+**[Learning Journal](./readin_journal.md)**
+
+---
+
+**[← Back to LTUC Index](../ReadMeLTUC.md)**

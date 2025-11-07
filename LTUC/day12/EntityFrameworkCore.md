@@ -40,3 +40,7 @@ for every resource access there is a **status code** to tell the user what happe
 ------
 
 **[Learning Journal](./LearningJournal.md)**
+
+---
+
+**[← Back to LTUC Index](../ReadMeLTUC.md)**

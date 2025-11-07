@@ -98,3 +98,7 @@ testDelegate test = new testDelegate();
 
 ----
 **[Learning Journal](./LearningJournal.md)**
+
+---
+
+**[← Back to LTUC Index](../ReadMeLTUC.md)**
