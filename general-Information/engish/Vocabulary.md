@@ -6,7 +6,7 @@ This document contains common English word patterns to help build vocabulary.
 ## Word Patterns
 | # | Pattern | Example Words (English – Arabic) |
 |---|---------|---------------------------------|
-| 1 | igh | high – عالي, light – خفيف / ضوء, night – ليل, sight – رؤية, right – صحيح / يمين, fight – يقاتل, bright – مشرق, flight – رحلة / طيران, tight – ضيق, might – قوة / قد, height – ارتفاع, weight – وزن, slight – طفيف, delight – فرحة / متعة, fright – خوف, knight – فارس, thigh – فخذ, sigh – تنهيدة |
+| 1 | igh | high – عالي,, thigh – فخذ, sigh – تنهيدة , light – خفيف / ضوء, night – ليل, sight – رؤية, right – صحيح / يمين, fight – يقاتل, bright – مشرق, flight – رحلة / طيران, tight – ضيق, might – قوة / قد, height – ارتفاع, weight – وزن, slight – طفيف, delight – فرحة / متعة, fright – خوف, knight – فارس|
 | 2 | ough | though – رغم أن, through – عبر / من خلال, rough – خشن, cough – سعال, thought – فكر / تفكير, brought – أحضر, fought – قاتل, sought – بحث عن, ought – يجب, thorough – شامل / دقيق, dough – عجين, enough – كافٍ, tough – صعب / قوي, borough – حي / بلدة, plough – محراث |
 | 3 | ight | light – ضوء / خفيف, bright – مشرق / ذكي, flight – رحلة / طيران, tight – ضيق, right – صحيح / يمين, night – ليل, sight – رؤية, fight – يقاتل, might – قوة / قد, height – ارتفاع, weight – وزن, slight – طفيف, delight – فرحة / متعة, fright – خوف, knight – فارس, plight – محنة, blight – آفة / فساد |
 | 4 | ain | rain – مطر, train – قطار / يدرب, explain – يشرح, pain – ألم, again – مرة أخرى, main – رئيسي, chain – سلسلة, plain – سهل / بسيط, gain – يكتسب / مكسب, brain – دماغ, drain – يصرف / يصفّي, grain – حبة / حبوب, stain – بقعة, remain – يبقى, contain – يحتوي, obtain – يحصل على, sustain – يدعم / يحافظ, maintain – يحافظ على |
