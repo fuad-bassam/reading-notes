@@ -30,3 +30,7 @@ NAME|Search Words
 [nested arrays](./DotNet/DotNet.md#nested-arrays)|nested arrays /2D array
 **`SQL`**|#
 [pagination](./SQL/SQL.md#pagination)|pagination/ page
+
+---
+
+**[← Back to Main Index](../README.md)**

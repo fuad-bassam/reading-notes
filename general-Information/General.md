@@ -1,8 +1,9 @@
 # General Information
 
+## Table of Contents
 
 #|Title
----|-----
+|---|-----
 1|[deferent betweem JavaSecript and C#](#deferent-betweem-JavaSecript-and-C#)
 2|[Terms](./Terms.md)
 3|[IEnumerable](./IEnumerable.md)
@@ -16,3 +17,7 @@ image for focus on  deferent betweem JavaSecript and C#
 -----
 
 ![image](./image/jsVsC%23.PNG)
+
+---
+
+**[← Back to Main Index](../README.md)**
